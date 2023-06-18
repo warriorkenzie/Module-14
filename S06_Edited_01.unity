@@ -981,6 +981,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8725633504282269572, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
+      propertyPath: maxHitPoints
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8725633504282269572, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
+      propertyPath: currentHitPoints
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8725633504282269572, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: onDamaged.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -1018,6 +1026,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8930243291491386604, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: damagePerContact
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8930243291491386604, guid: ca2c11bd02080ac449fced587a09ae2c, type: 3}
       propertyPath: thingsThatHurtMe.m_Bits
